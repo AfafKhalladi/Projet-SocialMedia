@@ -1,0 +1,31 @@
+Structure de la base et typage relations : 
+    (User)-[post]->(Tweeet)
+    (User)-[Follows]->(User)
+    (Tweet)-[mention]->(User)
+    (Tweet)-[Reply_to]->(Tweet)
+    (Tweet)-[Retweet]->(Tweet)
+    (Tweet)-[Using]->(Source)
+    (Tweet)-[tag]->(Hashtag)
+    (Tweet)-[Contains]->(Link)
+
+Fonctionnalités : 
+    Un user peut ajouter/supprimer un user [Follows]
+    Un user peut poster/modifier/supprimer des tweets [post]
+    Un user peut aimer un tweet (Compteur attribut (Tweet))
+    Un user peut personnaliser son compte pp,bio (User)
+    
+
+    Un user peut voir a combien de "poignées de main" il est d'un autre user
+    Statistiques users et tweet 
+
+
+
+Front : 
+    bootstrap
+
+    Formulaire inscription/connexion
+    Page acceuil : Tweets les plus récents des gens que tu follow 
+
+
+Back : 
+    Python et API Neo4j
