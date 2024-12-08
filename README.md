@@ -64,7 +64,7 @@ Ce projet implémente un système de gestion d'un réseau social utilisant une b
 ### **Étapes**
 1. Clonez ce dépôt :
    ```bash
-   git clone https://github.com/votre-utilisateur/Projet-SocialMedia.git
+   git clone https://github.com/AfafKhalladi/Projet-SocialMedia.git
    cd Projet-SocialMedia
 
     Installez les dépendances :
