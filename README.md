@@ -83,22 +83,6 @@ Démarrez le serveur Django :
 
     Accédez à l'API via http://127.0.0.1:8000.
 
-Structure du projet
-
-Projet-SocialMedia/
-│
-├── Back/                         # Backend
-│   ├── manage.py                 # Point d'entrée Django
-│   ├── settings.py               # Configuration Django et Neo4j
-│   ├── neo4J_requests.py         # Scripts Python pour interagir avec Neo4j
-│   ├── api/                      # Application Django pour l'API REST
-│   │   ├── urls.py               # Routes de l'API
-│   │   ├── views.py              # Contrôleurs de l'API
-│   │   └── serializers.py        # Sérialisation des données
-│   └── ...
-│
-├── requirements.txt              # Dépendances Python
-└── README.md                     # Documentation
 
 Limitations
 
